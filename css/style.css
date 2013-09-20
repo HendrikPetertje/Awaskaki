@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+/* Copyright Amonfog Design Life and More. Please contact site-addmin using www.amonfog.nl/contact before copying items from this sytlesheet. */
+
+/* Main concistensies */
+html, body {
+	margin:0;
+	padding:0;
+	wdith:100%;
+	background-color:#000;
+}
+
+img {
+	border:0;
+}
+
+#cleardiv {
+	clear:both;
+}
+
+/* Text styles */
+html, body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+h1 {
+	font-size:18px;
+	font-weight:bold;
+	margin-top:0;
+}
+
+h2 {
+	font-size:15px;
+	font-weight:bold;
+	margin-top:0;
+}
+
+a {
+	color:#001B30;
+}
+
+a:hover {
+	color:#F15A22
+}
+
+a:visited {
+	color:#002948
+}
+
+/* container-blocks */
+#head-container {
+	background-color:#EFFDFE;
+	height:150px;
+	margin:0;
+	padding:0;
+}
+
+#nav-container {
+	background-image:url(../images/nav-container-bg.png);
+	background-repeat:repeat-x;
+	height:50px;
+	padding:0;
+	margin:0;
+}
+
+#main-container {
+	background-image:url(../images/main-container.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	background-color:#F47B4E;
+	margin:0;
+	padding:0;
+	min-height:250px;
+}
+
+#footer-container {
+	margin:0;
+	padding:0;
+	background-color:#000;
+}
+
+/* container-content */
+#head-content {
+	width:960px;
+	height:150px;
+	margin:auto;
+	padding:0;
+	background-image:url(../images/head-content-bg.png);
+	background-repeat:no-repeat;
+}
+
+#nav-content {
+	background-image:url(../images/nav-content-bg.png);
+	width:960px;
+	margin:auto;
+	height:50px;
+}
+
+#main-content {
+	width:960px;
+	margin:auto;
+	padding:0;
+}
+
+#footer-content {
+	color:#FFF;
+	width:960px;
+	margin:auto;
+}
+
+#footer-content a {
+	color:#AAA;
+}
+
+#footer-content a:hover {
+	color:#DDD;
+}
+
+#footer-content ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#footer-content .nav-selected {
+	color:#888;
+}
+
+/* container-sub-content */
+#head-content-logo {
+	padding-top:10px;
+	padding-left:10px;
+	float:left;
+}
+
+#head-content-meta {
+	padding-top:10px;
+	padding-right:10px;
+	float:right;
+	margin-top:100px;
+}
+
+#nav-content-navigation {
+	float:left;
+}
+
+#nav-content-meta {
+	float:right;
+}
+
+#footer-content-123 {
+	width:230px;
+	padding-right:10px;
+	float:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#footer-content-4 {
+	width:230px;
+	float:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.footertitle {
+	font-size:15px;
+	font-weight:bold;
+}
+
+/* main-searchbox */
+.search-box {
+	background-image:url(../images/head-content-meta-searchbox.png);
+	background-repeat:no-repeat;
+	width:187px;
+	padding-left:5px;
+	padding-right:5px;
+	float:left;
+	height:21px;
+	
+}
+
+.search-input {
+	background-color:transparent;
+	border:hidden;
+	width:187px;
+}
+
+.submit-box {
+	background-image:url(../images/head-content-meta-submit.png);
+	background-repeat:no-repeat;
+	width:24px;
+	height:21px;
+	float:left;
+}
+
+.submit-input {
+	background-color:transparent;
+	border:hidden;
+	width:21px;
+}
+
+/* Navigation */
+#nav-content-navigation {
+	font-size:15px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#nav-content-navigation ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+#nav-content-navigation ul li {
+	display:table-cell;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:7.5px;
+	padding-bottom:7.5px;
+	background-image:url(../images/nav-content-naviagtion-bg.png);
+	background-position:right;
+	background-repeat:no-repeat
+}
+
+#nav-content-navigation ul li a {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#nav-content-navigation ul li a:hover {
+	color:#F79C7A;
+	text-decoration:none;
+}
+
+#nav-content-navigation ul li .nav-selected {
+	color:#F15A22;
+	text-decoration:none;
+}
+
+
+#nav-content-meta {
+	color:#FFF;
+	font-size:10px;
+	padding-top:9px;
+	padding-right:10px;
+	text-transform:uppercase;
+}
+
+#nav-content-meta a {
+	color:#FFF;
+}
+
+#nav-content-meta a:hover {
+	color:#F79C7A;
+}
+
+/* Main-content-grid */
+
+#main-content-3x1 {
+	width:960px;
+	margin:0;
+	float:left;
+}
+
+#main-content-3x1-top {
+	background-color:#FFF;
+	padding:10px;
+	margin:0;
+}
+
+#main-content-3x1-bottom {
+	background-image:url(../images/main-content-3x1-bottom-bg.png);
+	background-position:top;
+	background-repeat:no-repeat;
+	height:30px;
+	margin:0;
+	padding:0;
+}
+
+#main-content-1x1 {
+	width:310px;
+	padding-right:15px;
+	float:left;
+}
+
+#main-content-1x2 {
+	width:310px;
+	padding-right:15px;
+	float:left;
+}
+
+#main-content-1x3 {
+	width:310px;
+	float:left;
+}
+
+#main-content-1x-top {
+	padding:10px;
+	background-color:#FFF;
+	height:300px;
+}
+
+#main-content-1x-bottom {
+	background-image:url(../images/main-content-1x-bottom-bg.png);
+	background-position:top;
+	background-repeat:no-repeat;
+	height:30px;
+	width:310px;
+}
+
+/*testnav*/
+#nav-content-navigation .nav ul { 
+	position: absolute; 
+	top: -999em; 
+	width: 150px; /* left offset of submenus need to match (see below) */
+}
+
+/*#nav-content-navigation .nav ul li { 
+	width: 100%;
+}*/
+
+#nav-content-navigation .nav li:hover { 
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+
+#nav-content-navigation .nav li { 
+	float: left; position: relative; width: auto;
+}
+
+#nav-content-navigation .nav li:hover ul,.nav li.sfHover ul { 
+	left: 0; top: 30px; /* match top ul list item height */ 		
+	z-index: 3;
+}
+
+#nav-content-navigation ul.nav li:hover li ul,ul.nav li.sfHover li ul {
+	 top: -999em;
+}
+ 
+#nav-content-navigation ul.nav li li:hover ul,ul.nav li li.sfHover ul { 
+	left: 150px; /* match ul width */ 
+	top: 0px;
+}
+ 
+#nav-content-navigation ul.nav li li:hover li ul,ul.nav li li.sfHover li ul { 
+	top: -999em;
+}
+ 
+#nav-content-navigation ul.nav li li li:hover ul,ul.nav li li li.sfHover ul { 
+	left: 150px; /* match ul width */ 
+	top: 0px;
+}
+
+#nav-content-navigation ul ul {
+	background-color: #00365F;
+}
+
+#nav-content-navigation ul ul li {
+	background-image:url(../images/whitespacer.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	font-size:13px;
+}
+
+/*Hidden elements */
+.ccm-search-block-form h3 {
+	display:none;
+}
