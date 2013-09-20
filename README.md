@@ -14,6 +14,8 @@ Follow the steps below to setup this theme on your own Concrete5 installation
 
 ##Rules of customisation
 
+The design of the page is made by default.php and style.css in the the themes folder. I use the index.html file to make local previews of pages.
+
 To make a default-page only editable field paste the following code in the page and change the example text to you desired name. never build 2 fields with the same name on 1 page, unless you want items from one block to show up in the other as well.
 
 	<?php $a = new Area('Example'); $a->display($c); ?>
